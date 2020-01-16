@@ -11,3 +11,9 @@ Break the challenge down into larger ("macro") steps first. See the file `js/ind
 2. Clone the fork
 3. Work! (See `index.js` for tips)
 4. Bring the project to our next class as complete as possible with clearly identified macro and micro steps
+
+// 
+Steps. 
+1. Randomize the colour RGB
+2. Change the Backgrounds
+3. 
