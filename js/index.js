@@ -22,11 +22,14 @@ Let's start with one of the macro steps...
 //   5. Put them in the console to ensure they're not the same, refresh repeatedly
 //   6. Format the number into a string and test in the console: rgb(#, #, #)
 
-let colourRed =   Math.floor(Math.random() * 256);
-let colourGreen = Math.floor(Math.random() * 256);
-let colourBlue =  Math.floor(Math.random() * 256);
+/* 
+.000 * 10 = 0.00
+.1 * 
+*/
 
-console.log(`rgb(${colourRed}, ${colourGreen}, ${colourBlue})`);
+
+
+
 
 /*  Breakdown of the random number code (the right side of = assignment):
 - Math.random()
@@ -44,4 +47,38 @@ console.log(`rgb(${colourRed}, ${colourGreen}, ${colourBlue})`);
 // - Determine the remaining macro steps, write them out!
 // - Once determined, break each step down into micro steps
 // - Test each macro solution in isolation (console output helps)
-// - Begin to combine the steps together to create a final solution (test as you go!)
+// - Begin to combine the steps together to create // 
+
+// Step 1: Randomize
+
+
+//Step 2: Make button clickable
+
+//Find Button
+let randomBtn = document.querySelector('.randomize')
+
+randomBtn.addEventListener('click', (event) => {
+    let colourR = Math.floor (Math.random()* 256) //Red
+    let colourG = Math.floor (Math.random()* 256) // Green
+    let colourB = Math.floor (Math.random()* 256) // Blues
+    
+    console.log(colourR, colourG, colourB)
+    console.log (`rgb(${colourR}, ${colourG}, ${colourB}`)
+    console.log (`rgb(${colourR}, ${colourG}, ${colourB}`) 
+
+
+
+
+    let bodyElement = document.querySelector ('body')
+
+    
+    bodyElement.style.backgroundColor = `rgb(${colourR}, ${colourG}, ${colourB})`;
+
+})
+ 
+// Output
+
+// Step 3: change background colour of body
+
+// FInd Body 
+// Assign the rgb (#,#,#) string to the background colour of the body

@@ -17,3 +17,6 @@ Steps.
 1. Randomize the colour RGB
 2. Change the Backgrounds
 3. 
+
+
+Randomize number do decimals
